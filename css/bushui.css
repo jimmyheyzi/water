@@ -1,0 +1,223 @@
+#bushui{
+	overflow: hidden;
+}
+.logo{
+	position: absolute;
+	width: 46.51%;
+	right: 3.45%;
+	top: 2.1%;
+}
+.figure img:nth-of-type(1){
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index:1;
+    transform-origin:50% bottom;
+    -webkit-transform-origin:50% bottom;
+    transition: all .1s;
+}
+.figure img:nth-of-type(2){
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.product{
+	position: absolute;
+	width: 30%;
+	bottom:0%;
+	right: 0%;
+	z-index: 2;
+}
+#time{
+	position: absolute;
+	background: url(../img/time.png) no-repeat;
+	background-size: 100% 100%;
+	width:25% ;
+	height: 7%;
+	bottom: 2.5%;
+	right: 25.05%;
+}
+.timer{
+	position: absolute;
+	font-family: "myfont";
+	font-size: 20px;
+	left: 28%;
+	top: 5%;
+	color: #1084c8;
+	display: block;
+}
+#hand{
+	position: absolute;
+	width: 16.35%;
+	top: 48.7%;
+	right: 22.58%;
+	z-index: 2;
+}
+.head{
+	position: absolute;
+	width: 89.42%;
+	top: 3.6%;
+	left: 7.2%;
+}
+.headword{
+	position: absolute;
+	font-family: "myfont";
+	font-size: 1.5em;
+	left: 15%;
+	top: 7.7%;
+	color: #1084c8;
+}
+.number{
+    display:block;
+    margin: 32% auto;
+    width: 100%;
+    text-align: center;
+	font-family: "myfont";
+	font-size: 100px;
+	color: #1084c8;
+	/*-webkit-text-stroke: 2.5px white;*/
+	text-shadow: 1px 1px 5px white,-1px -1px 5px white,2px 2px 5px white,-2px -2px 5px white,3px 3px 5px white,-3px -3px 5px white
+	,4px 4px 5px white,-4px -4px 5px white,5px 5px 5px white,-5px -5px 5px white;
+}
+.star1{
+	position: absolute;
+	width: 69.24%;
+	left: 17.33%;
+	display: none;
+	bottom: 21.65%;
+}
+.star2{
+	position: absolute;
+	left: 17.78%;
+	width: 67.67%;
+	bottom: 18.15%;
+	display: none;
+}
+.star3{
+	position: absolute;
+	left: 13.13%;
+	width: 74.49%;
+	bottom: 18.53%;
+	display: none;
+}
+.star4{
+	position: absolute;
+	width: 42.31%;
+	bottom:7.94%;
+	left: 28.21%;
+}
+.biaoqing img{
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	display: none;
+}
+#result img:nth-of-type(1){
+	position: absolute;
+	width: 100%;
+}
+#result img:nth-of-type(2){
+	position: absolute;
+	bottom: 25.6%;
+	left: 16.20%;
+	width: 65.04%;
+}
+#result img:nth-of-type(3){
+	position: absolute;
+	bottom: 14%;
+	left: 37.65%;
+	width: 25.58%;
+}
+#result img:nth-of-type(4){
+	position: absolute;
+	bottom: 9.17%;
+	left: 42.46%;
+	width: 16.13%;
+}
+#num{
+	outline: none;
+	position: absolute;
+	border: none;
+	left: 46.73%;
+	bottom: 28.7%;
+	width: 30%;
+	background-color: transparent;
+	font-family: "myfont";
+	font-size: 18px;
+	color: #1888ca;
+	transition: all .5s;
+}
+#moisturizing{
+	position: absolute;
+	top: 5.9%;
+	left: 8.17%;
+	width: 82.82%;
+	height:92.57% ;
+	background: url(../img/ping/8.png) no-repeat;
+	background-size: 100% 100%;	
+	transition: all .5s;
+}
+#moisturizing p{
+	position: absolute;
+	font-family: "myfont";
+}
+.p1{
+	top: 7.4%;
+	left: 27.44%;
+	font-size: 1.875em;
+	color: #1084c8;
+}
+.p4{
+	width: 84%;
+	left: 8.4%;
+	top: 14.76%;
+	font-size: 14px;
+	color: #1084c8;
+}
+#close{
+	position: absolute;
+	top: 6%;
+	right: 9%;
+	width: 11%;
+	z-index: 99;
+}
+.bgimg{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url(../img/background.png) no-repeat;
+	background-size: 100% 100%;
+	top: 0;
+	left: 0;
+	display: none;
+	transition: all .5s;
+}
+#code{
+	position: absolute;
+	width: 100%;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
